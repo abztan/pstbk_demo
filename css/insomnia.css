@@ -1,1 +1,84 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
 
+h1 {
+  color: #ee4487;
+  font-size: 2.0em;
+  font-weight: lighter;
+}
+
+.login_container {
+  text-align: center;
+}
+
+.login_parent {
+  display: inline-block;
+  background-color: #f2f2f2;
+  padding: 1.0em 1.3em 2.0em 1.3em;
+  border-radius: 8px;
+  margin: 2.0em;
+}
+
+.container {
+  min-height: 200px;
+  background-color: #f2f2f2;
+  /*padding: 20px 20px 20px 20px;
+  margin: 80px 80px 80px 80px;*/
+}
+
+.row_title > div {
+  display: flex;
+  align-items: center;
+  font-size: 2.0em;
+  color: #ee4487;
+}
+
+.row_title > div > i{
+  padding-right: 0.45em;
+}
+
+.row_content {
+  padding: 3.0em
+
+}
+
+.row_footer {
+  text-align: right;
+}
+
+.material-icons {
+  font-size: 1.5em;
+}
+
+.link {
+  color: #ee4487;
+  cursor: pointer;
+}
+
+.mdl-textfield__error {
+  color: gray;
+}
+
+.button {
+  float: right;
+}
+
+.loader {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #ee4487;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
